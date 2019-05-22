@@ -4,14 +4,17 @@
   "description": "Guided Project for Web DB III Module",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+    "start": "java index.js"
   },
   "keywords": [],
   "author": "Lambda School",
   "dependencies": {
-    "express": "^4.16.4",
-    "helmet": "^3.16.0",
+    "express": "^4.17.0",
+    "helmet": "^3.18.0",
     "knex": "^0.16.5",
+    "knex-cleaner": "^1.1.4",
+    "morgan": "^1.9.1",
     "sqlite3": "^4.0.6"
   },
   "devDependencies": {
